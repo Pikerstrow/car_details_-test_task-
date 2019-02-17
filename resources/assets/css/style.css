@@ -1,0 +1,125 @@
+body {
+    background-color: whitesmoke;
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+#add_applying_button{
+    cursor:  pointer;
+}
+#modification-form-container{
+    position: relative;
+}
+#photo-preview{
+    color: red;
+    width: 100%;
+    margin: 0;
+}
+#photo-preview img{
+    width: 100%;
+    margin: 0;
+}
+#add_modification_button{
+    cursor: pointer;
+    height: 45px;
+}
+#product-applyings-container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    background: white;
+}
+.ajax-on-load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: none;
+}
+.sidebar-nav {
+    width: 150px;
+    height: 100%;
+    background-color: #092c40;
+    position: fixed;
+}
+.sidebar-nav ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+.sidebar-nav ul li {
+    list-style: none;
+}
+.sidebar-nav ul li a {
+    color: #d0d8df;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 10px !important;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .8px;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    transition: 0.4s;
+    border-bottom: 1px solid #D7D7D7;
+}
+.sidebar-nav ul li a:hover {
+    background-color: #616970;
+}
+.main-content {
+    width: calc(100% - 150px);
+    height: 100%;
+    margin-left: 150px;
+    padding: 10px 25px;
+}
+.admin-hr-separator{
+    height: 2px;
+    background-color: #092c40;
+    margin: 5px auto;
+    width: calc(100% - 25px);
+}
+.admin-h4 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .8px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.car-model-badge{
+    padding: 2px 5px;
+    background-color: #1d68a7;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 2px;
+    display: inline-block;
+}
+.delete-car-model-form, .delete-product-form {
+    display: inline-block;
+    height: 20px;
+}
+.product-delete-button{
+    display: contents;
+}
+.car-model-delete-button, .car-model-delete-ajax-button,
+.modification-edit-button, .modification-delete-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.delete-i{
+    transform: rotate(45deg);
+}
+.cars-list-table{
+    width: 100%;
+}
